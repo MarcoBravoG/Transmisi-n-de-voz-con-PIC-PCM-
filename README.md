@@ -1,6 +1,28 @@
 # Transmisi-n-de-voz-con-PIC-PCM-
 
 
+El proyecto consiste en trasmitir voz de un pic a otro pic!!! :unsure:
+primero debemos de tener claro la trasmicion, en este caso digital.
+
+
+#PROCESO MODULACIÓN PCM
+
+Codificación Analógica-Digital Modulación de Amplitud de Pulso(PAM)
+Modulación PCM
+Tasa de prueba
+
+#trasmicion digital 
+Es la trasmicion de pulso digitales, entre dos puntos, en un sistema de comunicación, la información de la fuente original debe estar ya sea en forma digital o en señales analógicas que deben convertirse a pulsos digitales.
+
+#Modulación de pulsos 
+
+incluye muchos métodos diferentes para convertir información a forma de pulsos para transferir pulsos de una fuente, los cuatro métodos predominantes son modulación de ancho de pulso(PWM) modulación de amplitud de pulsos(PAM) y modulación de pulsos codificados(PCM)
+
+#PAM:
+Esta técnica recoge información análoga, la muestra (ó la prueba), y genera una serie de pulsos basados en los resultados de la prueba, es un tipo de modulación de impulsos en los que la información está codificada en la amplitud de un pulso.
+
+#PCM 
+modifica los pulsos creados por PAM para crear una señal completamente digital. Para hacerlo, PCM, en primer lugar, cuantifica los pulsos de PAM. La cuantificación es un método de asignación de los valores íntegros a un rango
 
 Esta parte en la que el dato nos esta llegando constantemente, vamos a convertir esa señal analógica en una señal digital, lo que seria un conversor digital-análogo, la forma mas simple y efectiva de hacer esto es con un sumador!!! en el programa podemos ver que el dato es mostrado por dos puerto.
 
